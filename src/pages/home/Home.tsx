@@ -62,6 +62,7 @@ export const Home: React.FC<HomeProps> = ({ navigation }) => {
                     underlayColor={Colors.td_purple}
                     style={{borderRadius: 20}}
                     onPress={() => {
+                      Alert.alert('Até mais!');
                       setToggleModal(!toggleModal);
                       setIsLogged(!isLogged);
                     }}

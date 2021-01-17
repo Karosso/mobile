@@ -28,7 +28,7 @@ export const Curriculo: React.FC<CurriculoProps> = ({ navigation }) => {
         <View style={styles.container}>
             <Header goBack={handleGoBack} style={styles.headerContainer} title="MEU CURRÍCULO" >
                 <Image source={{ uri: "https://http2.mlstatic.com/D_NQ_NP_614041-MLB27185740295_042018-O.jpg" }} style={styles.image} />
-                <Text style={styles.name}>EDSON ARANTES</Text>
+                <Text style={styles.name}>OSCAR DIAS</Text>
                 <Text style={styles.info}>16 ANOS      SION</Text>
             </Header>
 
@@ -40,7 +40,7 @@ export const Curriculo: React.FC<CurriculoProps> = ({ navigation }) => {
             </View>
 
             <TouchableOpacity onPress={() => handleSave()} style={styles.button}>
-                <Text style={styles.buttonText}>CANDIDATAR A VAGA</Text>
+                <Text style={styles.buttonText}>SALVAR</Text>
             </TouchableOpacity>
 
         </View>
